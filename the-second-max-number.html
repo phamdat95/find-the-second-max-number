@@ -18,10 +18,11 @@
             if (array[j]>secondMaxNumber && array[j]<max)
                 secondMaxNumber=array[j];
         }
-        alert('the second max number in array '+ '[' + array + ']' +' is: '+ secondMaxNumber);
+        return secondMaxNumber;
     }
     var array = [5,6,4,8,3,4,7,6];
-    isSecondMaxNumber(array);
+    alert('the second max number in array '+ '[' + array + ']' +' is: '+ isSecondMaxNumber(array));
+
 </script>
 </body>
 </html>
